@@ -1,8 +1,9 @@
 <?php
 session_start();
 $_SESSION['book']='';
-
+$book=['PHP','Laravel','Golang'];
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,10 +22,6 @@ $_SESSION['book']='';
             <option>Golang</option>
         </select>
         <input type='submit'>
-        <?php $books=['Php','Laravel','Golang'];
-        setcookie('book',$books);
-        echo $_COOKIE['book'];
-        ?>
     </form>
 </body>
 </html>
