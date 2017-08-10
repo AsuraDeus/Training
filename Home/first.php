@@ -51,6 +51,28 @@ echo "$var2";
 
 <br />
 <?php
-
+echo 10==10 ?: zxczczxc;
 ?>
 <br />
+====================
+
+<br />
+
+<select  name="sel[]" multiple>
+<option>First</option>
+<option>Second</option>
+<option>Third</option>
+</select>
+
+<br />
+====================
+<br />
+<input type="checkbox" name="Ar[]" value="ch1">
+<input type="checkbox" name="Ar[]" value="ch2">
+<input type="text" name="Ar[]" value="Some Text">
+<textarea name="Ar[]">Some Text</textarea>
+<?php
+echo $_SERVER['REMOTE_ADDR'];
+echo $_SERVER['HTTP_USER_AGENT'];
+?>
+
