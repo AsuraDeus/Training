@@ -1,0 +1,16 @@
+create database web;
+
+create table teachers
+(
+id int  primary key auto_increment,
+name varchar(50),
+email varchar(50) 
+);
+create unique  index teachers_email_index on teachers (email);
+
+insert into teachers (name,email) values ('Vasya','vasya@mail.ru');
+insert into teachers (name,email) values ('Kolya','kolya@mail.ru');
+
+select name 
+from teachers
+order by name;
