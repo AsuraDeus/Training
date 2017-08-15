@@ -25,12 +25,10 @@ function father($a){
 
 echo date(DATE_COOKIE);
 
-
 echo '<br />';
 $date = new DateTime(DATE_ATOM);
 $date->add(new DateInterval('P10D'));
 echo $date->format('Y-m-d') . "\n";
-
 
 father(10);
 child(30);
