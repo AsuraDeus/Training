@@ -1,0 +1,62 @@
+Сомов Игорь Андреевич
+isomov@specialist.ru
+
+https://wiki.php.net/rfc
+
+Группа в вконтакте
+https://vk.com/phpspec
+
+Сервер
+https://ospanel.io/
+Mac-only: https://www.mamp.info/encourses/
+
+Редактор
+Ctrl + Alt + L
+https://www.jetbrains.com/phpstorm/ ($)
+https://atom.io/ (-)
+https://www.sublimetext.com/ ($)
+https://code.visualstudio.com/ (-)
+
+Тестирование
+
+Литература
+https://www.ozon.ru/context/detail/id/139127353/
+https://www.ozon.ru/context/detail/id/137538198/
+https://www.ozon.ru/context/detail/id/136593716/
+https://www.ozon.ru/context/detail/id/4538872/
+---
+https://www.ozon.ru/context/detail/id/19383907/
+
+Полезное
+https://habrahabr.ru/hub/php/top100/
+http://klava.org/#eng_code_php
+http://ergosolo.ru/
+https://www.youtube.com/channel/UCawnwMqZ6JeoSiEhrS6X69A/playlists
+
+Алгоритмы (1-3 года)
+https://www.youtube.com/playlist?list=PLDrmKwRSNx7KcHxyf9hSmF3fTLKSwujkM
+https://www.ozon.ru/context/detail/id/27676529/
+
+https://www.ozon.ru/context/detail/id/33769775/
+https://www.ozon.ru/context/detail/id/1335648/
+
+...
+
+https://pear.php.net
+
+https://serversforhackers.com
+https://serversforhackers.com/shipping-docker
+
+Расширение Chrome : "var_masterpiece"
+
+DataBase:
+    Redis
+    PostgreSQL || MariaDB
+    MongoDB
+    Sphinx || ElasticSearch
+    Neo4J
+
+Статьи
+https://github.com/webcoder-club/php-whats-new
+https://tproger.ru/experts/28/
+https://ru.wikipedia.org/wiki/Список_кодов_состояния_HTTP
