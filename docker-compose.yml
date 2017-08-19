@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+ php:
+  image: php:7.0-apache  
+  volumes:
+   - ./Home:/var/www/html
+  ports:
+   - 5001:80
+    

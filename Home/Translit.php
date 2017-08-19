@@ -7,7 +7,6 @@
   <title>Document</title>
 </head>
 <body>
-
     <form action="" method="post">
     <input type="text" name="text" value="">
 <input type="submit" name="doGo" value="Тыкай штолле">
