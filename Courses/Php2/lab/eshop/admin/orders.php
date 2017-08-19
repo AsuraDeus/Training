@@ -12,7 +12,16 @@
 <body>
 <h1>Поступившие заказы:</h1>
 <?php
+$orders = getOrders();
 
+foreach($orders as $order){ ?>
+	<p><b>Заказчик</b>: <?= $order["name"] ?></p>
+	<p><b>email</b>: <?= $order["email"] ?></p>
+	<p><b>phone</b>: <?= $order["phone"] ?></p>
+	<p><b>address</b>: <?= $order["address"] ?></p>
+	<p><b>orderid</b>: <?= $order["orderid"] ?></p>
+	<p><b>date</b>: <?= $order["date"] ?></p>
+}
 ?>
 <hr>
 <h2>Заказ номер: </h2>
