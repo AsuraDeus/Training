@@ -5,6 +5,8 @@ services:
   image: php:7.0-apache  
   volumes:
    - ./Home:/var/www/html
+   - ./Courses:/var/www/html/Courses
   ports:
    - 5001:80
-    
+  stdin_open: true
+  tty: true
