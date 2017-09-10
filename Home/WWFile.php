@@ -16,13 +16,13 @@
 <?php
  $path= "test2.txt";
  $test2= fopen($path, 'at') or die("Ошибка");
- $st= $_POST['text'];
-  if (!$st) {
+ strip_tags(trim($st= $_POST['text']));
+  if (str_replace(" ", "", $st) == false):
   // todo: Error.log
-  } else {
+  else:
   $st .= "\n";
   fputs($test2,$st);
-  }
+  endif;
 $d= file($path);
 //my_dump($d);
 foreach ($d as $value) : echo $value, '<br />'; endforeach;

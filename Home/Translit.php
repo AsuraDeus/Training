@@ -12,7 +12,7 @@
 <input type="submit" name="doGo" value="Тыкай штолле">
 </form>
 <?php
-$str1=($_POST['text']);
+htmlspecialchars($str1=($_POST['text']));
 $str2 = [
     'а' => 'a',
     'б' => 'b',
